@@ -1,0 +1,52 @@
+body{background-color:black;}
+.review {
+	background: rgb(371, 516, 88);
+	height: auto;
+	width: 270px;
+	border-radius: 15px;
+	margin: auto;
+	padding: 10px;
+	margin-top: 30px;
+	box-shadow: 5px 5px 5px red;
+	align-items: center;
+}
+
+.review__items {
+	align-items: center;
+	justify-content: space-evenly;
+	width: 250px;
+	padding: 10px;
+	align-items: center;
+}
+
+.review__items img {
+	height: 250px;
+	width: 250px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 15px;
+}
+
+.review__items h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+}
+
+.review__items p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 14px;
+}
+
+.review__button {
+	text-align: center;
+	padding: 10px;
+}
+
+.review__button button {
+	color: rgb(992, 279, 92);
+	background: blue;
+	font-weight: bold;
+}
+
+.review__items {
+	display: none;
+}
